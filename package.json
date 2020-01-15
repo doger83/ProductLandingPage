@@ -1,0 +1,30 @@
+{
+  "name": "productlandingpage",
+  "version": "1.0.0",
+  "description": "This is my ProductLandingPage project for the freeCodeCamp 'Responsive Web Design Certification'",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doger83/ProductLandingPage.git"
+  },
+  "keywords": [
+    "Product",
+    "Landing",
+    "Page",
+    "Certificate",
+    "Responsive",
+    "freeCodeCamp"
+  ],
+  "author": "Dominic Gerweck",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/doger83/ProductLandingPage/issues"
+  },
+  "homepage": "https://github.com/doger83/ProductLandingPage#readme"
+}
