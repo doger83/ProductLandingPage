@@ -7,7 +7,7 @@
     "doc": "docs"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "node-sass -w scss/ -o docs/css/ --recursive"
   },
   "repository": {
     "type": "git",
@@ -26,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/doger83/ProductLandingPage/issues"
   },
-  "homepage": "https://github.com/doger83/ProductLandingPage#readme"
+  "homepage": "https://github.com/doger83/ProductLandingPage#readme",
+  "dependencies": {
+    "node-sass": "^4.13.0"
+  }
 }
