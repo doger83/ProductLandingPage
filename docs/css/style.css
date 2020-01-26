@@ -223,10 +223,12 @@ nav > ul {
   font-weight: 700; }
 
 .product > h2 {
-  margin-top: 15px; }
+  margin-top: 15px;
+  color: #42C534; }
 
 .product > ol {
-  margin: 15px 0; }
+  margin: 15px 0;
+  color: #42C534; }
 
 .product > ol > li {
   padding: 5px 0; }
