@@ -43,7 +43,7 @@ body::before {
   width: 100%;
   z-index: -1;
   background: var(--color-dark);
-  background-image: url(./docs/img/background.png);
+  background-image: url(../docs/img/background.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; }
