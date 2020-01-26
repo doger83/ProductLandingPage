@@ -1,9 +1,81 @@
+/*
+=====================================================================
+*   v1.0 Layout Stylesheet
+*   15-01-2020
+=====================================================================
+
+   TOC:
+   a. General Styles
+   b. Header Styles
+   c. Section Styles   
+
+===================================================================== */
+/* ------------------------------------------------------------------ */
+/* a. General Styles
+/* ------------------------------------------------------------------ */
+:root {
+  --color-white: #f3f3f3;
+  --color-darkblue: #1b1b32;
+  --color-darkblue-alpha: rgba(27, 27, 50, 0.5);
+  --color-green: #37af65;
+  --color-orange: #f06000;
+  --color-dark: #26252a;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
-  color: white;
-  background-color: lightslategray;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(--color-white);
+  margin: 0;
+}
+
+/* mobile friendly alternative to using background-attachment: fixed */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background: var(--color-dark);
+  background-image: url(/docs/img/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+h1 {
+  font-weight: 400;
+  line-height: 1.2;
+  text-decoration: underline;
+}
+
+p {
+  font-size: 1.125rem;
+}
+
+h1,
+p {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
 }
 .img-fluid {
   width: 100%;
   height: auto;
   max-width: 250px;
 }
+/* ------------------------------------------------------------------ */
+/* b. Header Styles
+  /* ------------------------------------------------------------------ */
+
+/* ------------------------------------------------------------------ */
+/* c. Section Styles
+  /* ------------------------------------------------------------------ */

@@ -11,7 +11,10 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
         integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-    <link rel="stylesheet" href="./docs/css/main.css">
+    <!-- <link rel="stylesheet" href="./docs/css/default.css"> -->
+    <link rel="stylesheet" href="./docs/css/style.css">
+    <!-- <link rel="stylesheet" href="./docs/css/media-queries.css"> -->
+
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -22,71 +25,118 @@
 </head>
 
 <body>
-    <div class="container-fluid">
-        <header id="header" class="header clearfix">
-            <nav>
-                <ul class="nav nav-pills pull-right">
-                    <li role="presentation" class="nav-link active"><a href="#home">Home</a></li>
-                    <li role="presentation" class="nav-link"><a href="#About">About</a></li>
-                    <li role="presentation" class="nav-link"><a href="#Contact">Contact</a></li>
+
+    <div id="page-wrapper">
+        <header id="header">
+            <div class="logo">
+                <img id="header-img" src="..\docs\img\logo.png" alt="original trombones logo" />
+            </div>
+
+            <nav id="nav-bar">
+                <ul>
+                    <li><a class="nav-link" href="#hero">Home</a></li>
+                    <li><a class="nav-link" href="#features">About</a></li>
+                    <li><a class="nav-link" href="#how-it-works">Works</a></li>
+                    <li><a class="nav-link" href="#pricing">Buy It</a></li>
                 </ul>
-                <img id="header-img" class="img-fluid" src="./docs/img/logo.png" alt="DoubleD Artworks">
             </nav>
         </header>
-        <section id="home">
-            <h1>dscsadvsa</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel corrupti temporibus reiciendis dolor, omnis
-                quibusdam sequi cumque maiores, ducimus eveniet, voluptatem labore doloribus. Vitae inventore esse
-                dolores consectetur ipsum harum facere voluptatibus nihil non doloremque ab rem, ex aliquid praesentium
-                sit porro, delectus ad. Natus assumenda, possimus facilis nesciunt necessitatibus voluptatum! Pariatur
-                distinctio aperiam laboriosam eaque magnam. Nihil quae in corporis harum animi? Soluta sint suscipit
-                dolores odit nulla eveniet officia nostrum explicabo nisi pariatur cum earum quis nesciunt, nihil
-                numquam corporis consequuntur tempore tempora repudiandae beatae aspernatur molestias cupiditate.
-                Molestiae, nostrum. Repellendus deleniti perspiciatis maiores dolorum laboriosam labore tempora quam
-                provident velit. Cupiditate nihil, odio necessitatibus neque maiores culpa in distinctio laudantium
-                nostrum? Sapiente quas rerum nobis aliquam consequatur assumenda optio animi, laboriosam expedita nihil
-                deserunt corporis, perspiciatis consequuntur nulla consectetur hic impedit voluptates illo quo. Iusto
-                aut nihil voluptas, quam blanditiis impedit similique, labore nesciunt, aspernatur id odit.</p>
-        </section>
-        <section id="About">
-            <h1>dscsadvsa</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel corrupti temporibus reiciendis dolor, omnis
-                quibusdam sequi cumque maiores, ducimus eveniet, voluptatem labore doloribus. Vitae inventore esse
-                dolores consectetur ipsum harum facere voluptatibus nihil non doloremque ab rem, ex aliquid praesentium
-                sit porro, delectus ad. Natus assumenda, possimus facilis nesciunt necessitatibus voluptatum! Pariatur
-                distinctio aperiam laboriosam eaque magnam. Nihil quae in corporis harum animi? Soluta sint suscipit
-                dolores odit nulla eveniet officia nostrum explicabo nisi pariatur cum earum quis nesciunt, nihil
-                numquam corporis consequuntur tempore tempora repudiandae beatae aspernatur molestias cupiditate.
-                Molestiae, nostrum. Repellendus deleniti perspiciatis maiores dolorum laboriosam labore tempora quam
-                provident velit. Cupiditate nihil, odio necessitatibus neque maiores culpa in distinctio laudantium
-                nostrum? Sapiente quas rerum nobis aliquam consequatur assumenda optio animi, laboriosam expedita nihil
-                deserunt corporis, perspiciatis consequuntur nulla consectetur hic impedit voluptates illo quo. Iusto
-                aut nihil voluptas, quam blanditiis impedit similique, labore nesciunt, aspernatur id odit.</p>
-
-        </section>
-        <section id="Contact">
-            <h1>dscsadvsa</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel corrupti temporibus reiciendis dolor, omnis
-                quibusdam sequi cumque maiores, ducimus eveniet, voluptatem labore doloribus. Vitae inventore esse
-                dolores consectetur ipsum harum facere voluptatibus nihil non doloremque ab rem, ex aliquid praesentium
-                sit porro, delectus ad. Natus assumenda, possimus facilis nesciunt necessitatibus voluptatum! Pariatur
-                distinctio aperiam laboriosam eaque magnam. Nihil quae in corporis harum animi? Soluta sint suscipit
-                dolores odit nulla eveniet officia nostrum explicabo nisi pariatur cum earum quis nesciunt, nihil
-                numquam corporis consequuntur tempore tempora repudiandae beatae aspernatur molestias cupiditate.
-                Molestiae, nostrum. Repellendus deleniti perspiciatis maiores dolorum laboriosam labore tempora quam
-                provident velit. Cupiditate nihil, odio necessitatibus neque maiores culpa in distinctio laudantium
-                nostrum? Sapiente quas rerum nobis aliquam consequatur assumenda optio animi, laboriosam expedita nihil
-                deserunt corporis, perspiciatis consequuntur nulla consectetur hic impedit voluptates illo quo. Iusto
-                aut nihil voluptas, quam blanditiis impedit similique, labore nesciunt, aspernatur id odit.</p>
-
-        </section>
 
 
-    </div> <!-- /container -->
-    <footer class="footer">
-        <p>&copy; 2016 Company, Inc.</p>
-    </footer>
 
+
+
+        <div class="container">
+            <section id="hero">
+
+                <h2>Handcrafted, home-made masterpieces</h2>
+                <form id="form" action="https://www.freecodecamp.com/email-submit">
+                    <input name="email" id="email" type="email" placeholder="Enter your email address" required />
+                    <input id="submit" type="submit" value="Get Started" class="btn" />
+                </form>
+            </section>
+            <section id="features">
+                <div class="grid">
+                    <div class="icon"><i class="fa fa-3x fa-fire"></i></div>
+                    <div class="desc">
+                        <h2>The NEON Effect</h2>
+                        <p>
+                            My canvases are made with GLOW IN THE DARK EFFEK. The intense luminosity of the color
+                            becomes apparent after charging under a direct light source - the self-luminous effect color
+                            becomes even more brilliant with the help of UV light
+                        </p>
+                    </div>
+                </div>
+                <div class="grid">
+                    <div class="icon"><i class="fa fa-3x fa-truck"></i></div>
+                    <div class="desc">
+                        <h2>Fast Shipping</h2>
+                        <p>
+                            We make sure you recieve your order as soon as we have finished
+                            making it. We also provide free returns if you are not satisfied.
+                        </p>
+                    </div>
+                </div>
+                <div class="grid">
+                    <div class="icon">
+                        <i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
+                    </div>
+                    <div class="desc">
+                        <h2>Quality Assurance</h2>
+                        <p>
+                            For every purchase you make, we will ensure there are no damages or
+                            faults.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section id="how-it-works">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/o0Sb25h1kQc" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </section>
+            <section id="pricing">
+                <div class="product" id="work1">
+                    <div class="level">Canvas daylight</div>
+
+                    <h2>$600</h2>
+                    <img src="/docs/img/works/work1.jpg" class="img-responsive img-thumbnail" alt="">
+                    <ol>
+                        <li>Lorem ipsum dolor.</li>
+                    </ol>
+                    <button class="btn">Select</button>
+                </div>
+                <div class="product" id="work2">
+                    <div class="level">Canvas NEON-light</div>
+
+                    <h2>$600</h2>
+                    <img src="/docs/img/works/work2.jpg" class="img-responsive img-thumbnail" alt="">
+                    <ol>
+                        <li>Lorem ipsum dolor.</li>
+                    </ol>
+                    <button class="btn">Select</button>
+                </div>
+                <div class="product" id="work3">
+                    <div class="level">Sculptures</div>
+
+                    <h2>$1200</h2>
+                    <img src="/docs/img/works/work3.jpg" class="img-responsive img-thumbnail" alt="">
+                    <ol>
+                        <li>Lorem ipsum dolor.</li>
+                    </ol>
+                    <button class="btn">Select</button>
+                </div>
+            </section>
+            <footer>
+                <ul>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <span>&copy; Copyright 2020, Dominic Gerweck</span>
+            </footer>
+        </div>
+    </div>
     <!-- Bootstrap core JavaScript
       ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
