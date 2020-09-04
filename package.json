@@ -29,6 +29,6 @@
   "homepage": "https://github.com/doger83/ProductLandingPage#readme",
   "dependencies": {
     "bootstrap": "^3.4.1",
-    "node-sass": "^4.13.0"
+    "node-sass": "^4.13.1"
   }
 }
